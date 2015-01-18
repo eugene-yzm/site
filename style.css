@@ -1,61 +1,100 @@
-* {
-	margin: 0;
-	padding: 0;
+.topbar { background: rgb(192, 192, 192) transparent;
+background: rgba(192, 192, 192, 0.8);
+width: 95%;
+margin-top: 1%;
 }
 
-body {
-	font: 14px/1.5 Helvetica, Arial, sans-serif;
-}
-
-/*.container {
-	margin: 20px auto;
-	width: 960px;
-}*/
-
-/*.row {
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 40px;
-	padding-bottom: 40px;
-	position: relative;
-}*/
-
-.row:after {
-	clear: both;
-	content: ".";
+.menu {
 	display: block;
-	height: 0;
-	visibility: hidden;
+	height: 5%;
+	margin-bottom: 2%;
+	z-index: 1;
 }
 
-/*.content {
+.middle {
+	margin-top:12%;
+}
+
+.f-nav{ z-index: 9999; 
+	position: 
+	fixed; 
+	top: 0; 
+	/*width: 90%;*/
+}
+.right{
+	right:0;
+}
+
+.left{
+	left:0;
+}
+
+.navbar-brand {
 	float: left;
-	width: 640px;
-}*/
+}
 
-/*.aside {
-	background: #cecece;
+.navbar-right {
 	float: right;
-	padding: 20px;
-	padding: 0 20px;
-	width: 260px;
+}
+
+
+.navbar-collapse.collapse {
+display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+margin-right: -15px !important;
+}
+
+.navbar-right {
+float: right!important;
+}
+
+/* Custom sizing for older machines */
+/*@media (min-width: 600) { 
+.middle {
+	margin-top:16%;
+}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+.topbar { background: rgb(192, 192, 192) transparent;
+background: rgba(192, 192, 192, 0.8);
+width: 90%;
+margin-top: 1%;
+}
+.middle {
+	margin-top:14%;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+	.topbar { background: rgb(192, 192, 192) transparent;
+background: rgba(192, 192, 192, 0.8);
+width: 85%;
+margin-top: 1%;
+}
+
+.middle {
+	margin-top:12%;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+	.topbar { background: rgb(192, 192, 192) transparent;
+background: rgba(192, 192, 192, 0.8);
+width: 80%;
+margin-top: 1%;
+}
+
+.middle {
+	margin-top:10%;
+}
 }*/
-
-h2 {
-	font-size: 20px;
-}
-
-p {
-	margin-bottom: 1.5em;
-}
-
-.stickit {
-	margin-left: 660px;
-	position: fixed;
-	top: 0;
-}
-
-.stickit-end {
-	bottom: 40px;
-	position: absolute;
-	right: 0;
-}
