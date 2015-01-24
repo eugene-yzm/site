@@ -1,6 +1,6 @@
 .topbar { background: rgb(192, 192, 192) transparent;
 background: rgba(192, 192, 192, 0.8);
-width: 95%;
+/*width: 95%;*/
 margin-top: 1%;
 }
 
@@ -53,8 +53,8 @@ margin-right: -15px !important;
 .navbar-right {
 float: right!important;
 }
-
-/* Custom sizing for older machines */
+/*
+ /*Custom sizing for older machines */
 /*@media (min-width: 600) { 
 .middle {
 	margin-top:16%;
@@ -97,4 +97,4 @@ margin-top: 1%;
 .middle {
 	margin-top:10%;
 }
-}*/
+}*/*/
