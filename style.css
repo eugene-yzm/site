@@ -53,6 +53,16 @@ margin-right: -15px !important;
 .navbar-right {
 float: right!important;
 }
+
+.footer {
+  position: relative;
+  /*margin-top: -150px;  negative value of footer height */
+  clear:both;
+  padding-top:15px;
+  width:100%;
+  background: rgb(220, 220, 220,) transparent;
+  background: rgba(220, 220, 220, 0.8);
+} 
 /*
  /*Custom sizing for older machines */
 /*@media (min-width: 600) { 
