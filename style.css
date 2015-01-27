@@ -4,6 +4,10 @@ background: rgba(192, 192, 192, 0.8);
 margin-top: 1%;
 }
 
+.topbar-resize {
+	width: 480px;
+}
+
 .menu {
 	display: block;
 	height: 5%;
@@ -13,6 +17,7 @@ margin-top: 1%;
 
 .middle {
 	margin-top:12%;
+/*	width: 100%;*/
 }
 
 .f-nav{ z-index: 9999; 
@@ -27,6 +32,16 @@ margin-top: 1%;
 
 .left{
 	left:0;
+}
+
+.media-resized1 {
+	width: 480px;
+	border-top: 180px;
+}
+
+.media-resized2 {
+	width: 480px;
+	border-top: 150px;
 }
 
 .navbar-brand {
@@ -72,39 +87,14 @@ float: right!important;
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { 
+@media (min-width: 580px) { 
 .topbar { background: rgb(192, 192, 192) transparent;
 background: rgba(192, 192, 192, 0.8);
-width: 90%;
+/*width: 90%;*/
 margin-top: 1%;
 }
 .middle {
 	margin-top:14%;
+/*	width: 90%;*/
 }
 }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
-	.topbar { background: rgb(192, 192, 192) transparent;
-background: rgba(192, 192, 192, 0.8);
-width: 85%;
-margin-top: 1%;
-}
-
-.middle {
-	margin-top:12%;
-}
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { 
-	.topbar { background: rgb(192, 192, 192) transparent;
-background: rgba(192, 192, 192, 0.8);
-width: 80%;
-margin-top: 1%;
-}
-
-.middle {
-	margin-top:10%;
-}
-}*/*/
