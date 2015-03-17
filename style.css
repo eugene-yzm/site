@@ -63,7 +63,7 @@ float: left !important;
 }
 
 .navbar-nav.navbar-right:last-child {
-margin-right: -15px !important;
+margin-right: 222px !important;
 }
 
 .navbar-right {
@@ -78,7 +78,7 @@ float: right!important;
   width:100%;
   background: rgb(220, 220, 220,) transparent;
   background: rgba(220, 220, 220, 0.8);
-} 
+}
 /*
  /*Custom sizing for older machines */
 /*@media (min-width: 600) { 
