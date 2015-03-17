@@ -20,11 +20,9 @@ jQuery("document").ready(function($){
 	$(window).resize(function() {
 		if($(window).width() <866) {
 			$('.media').addClass('media-resized1');
-      $('.navbar-right').addClass('topbar-resize');
 		}
 		else {
 			$('.media').removeClass('media-resized1');
-      $('.navbar-right').addClass('topbar-resize');
 		}
 		if($(window).width() <580) {
 			$('.media').addClass('media-resized2');
