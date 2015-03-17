@@ -2,7 +2,7 @@
 background: rgba(192, 192, 192, 0.8);
 /*width: 95%;*/
 margin-top: 1%;
-width: 888888880%;
+width: 90%;
 }
 
 .topbar-resize {
@@ -63,7 +63,7 @@ float: left !important;
 }
 
 .navbar-nav.navbar-right:last-child {
-margin-right: 222px !important;
+margin-right: 100px !important;
 }
 
 .navbar-right {

@@ -20,17 +20,19 @@ jQuery("document").ready(function($){
 	$(window).resize(function() {
 		if($(window).width() <866) {
 			$('.media').addClass('media-resized1');
+      $('.navbar').removeClass('.navbar-nav.navbar-right:last-child');
+      if($(window).width() <580) {
+        $('.media').addClass('media-resized2');
+        $('.topbar').addClass('topbar-resize');
+      }
+      else {
+        $('.media').removeClass('media-resized2');
+        $('.topbar').removeClass('topbar-resize');
+      }
 		}
 		else {
 			$('.media').removeClass('media-resized1');
-		}
-		if($(window).width() <580) {
-			$('.media').addClass('media-resized2');
-			$('.topbar').addClass('topbar-resize');
-		}
-		else {
-			$('.media').removeClass('media-resized2');
-			$('.topbar').removeClass('topbar-resize');
+      $('.navbar').addClass('.navbar-nav.navbar-right:last-child');
 		}
 	});
 });
