@@ -2,6 +2,7 @@
 background: rgba(192, 192, 192, 0.8);
 /*width: 95%;*/
 margin-top: 1%;
+width: 888888880%;
 }
 
 .topbar-resize {
@@ -20,10 +21,10 @@ margin-top: 1%;
 /*	width: 100%;*/
 }
 
-.f-nav{ z-index: 9999; 
-	position: 
-	fixed; 
-	top: 0; 
+.f-nav{ z-index: 9999;
+	position:
+	fixed;
+	top: 0;
 	/*width: 90%;*/
 }
 .right{
