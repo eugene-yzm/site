@@ -6,7 +6,8 @@ width: 90%;
 }
 
 .topbar-resize {
-	width: 480px;
+	width: 100%;
+	margin-right: 0px;	
 }
 
 .menu {
@@ -35,14 +36,9 @@ width: 90%;
 	left:0;
 }
 
-.media-resized1 {
+.media-resized {
 	width: 480px;
 	border-top: 180px;
-}
-
-.media-resized2 {
-	width: 480px;
-	border-top: 150px;
 }
 
 .navbar-brand {
@@ -53,7 +49,6 @@ width: 90%;
 	float: right;
 }
 
-
 .navbar-collapse.collapse {
 display: block!important;
 }
@@ -62,8 +57,25 @@ display: block!important;
 float: left !important;
 }
 
-.navbar-nav.navbar-right:last-child {
+.topbar1{
+margin-right: 0px !important;
+}
+
+.topbar2{
 margin-right: 100px !important;
+}
+
+.topbar3{
+margin-right: 200px !important;
+}
+
+.topbar4{
+margin-right: 400px !important;
+}
+
+
+.navbar-nav.navbar-right1 {
+margin-right: 0px !important;
 }
 
 .navbar-right {
@@ -79,13 +91,7 @@ float: right!important;
   background: rgb(220, 220, 220,) transparent;
   background: rgba(220, 220, 220, 0.8);
 }
-/*
- /*Custom sizing for older machines */
-/*@media (min-width: 600) { 
-.middle {
-	margin-top:16%;
-}
-}
+
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 580px) { 
