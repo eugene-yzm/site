@@ -23,8 +23,7 @@ width: 90%;
 }
 
 .f-nav{ z-index: 9999;
-	position:
-	fixed;
+	position:fixed;
 	top: 0;
 	/*width: 90%;*/
 }
@@ -62,7 +61,7 @@ margin-right: 0px !important;
 }
 
 .topbar2{
-margin-right: 100px !important;
+margin-right: 50px !important;
 }
 
 .topbar3{
@@ -80,6 +79,19 @@ margin-right: 0px !important;
 
 .navbar-right {
 float: right!important;
+}
+
+.w650 {
+	width: 650px;
+}
+
+.w631 {
+	width: 631px;
+	position: absolute;
+}
+
+.w100 {
+	width: 100%;
 }
 
 .footer {
