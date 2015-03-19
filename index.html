@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="fixmenu.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -19,8 +20,8 @@
 			<div class ="col-sm-10">
 				<ul class="nav navbar-right navbar-nav">
 					<li><a href="#"> resume </a></li>
-					<li><a href="#"> find me at </a></li>
-					<li><a href="#"> about me </a></li>					
+					<li><a class="scroll" href="#find-me"> find me at </a></li>
+					<li><a class="scroll" href="#about"> about me </a></li>					
 					<li><a href="https://github.com/symba" target="_blank"> <i class="fa fa-github-square fa-lg"></i> </a></li>
 					<li><a href="https://www.linkedin.com/in/eugeneyzm" target="_blank"> <i class="fa fa-linkedin-square fa-lg"></i> </a></li>
 					<li><a href="#" target="_blank"> <i class="fa fa-deviantart fa-lg"></i> </a></li>
@@ -32,20 +33,68 @@
 	<div class="container">
 		<div class="hero">
 		</div>
+
 		<div class="row media middle">
 			<div class="col-sm-10 col-sm-offset-1 media-body">
-				Hello this is Eugene's Website, still in dev.
+				<ul class="media-list">
+					<li class="media">
+						<div class="media-left">
+						<a href="#">
+						<img class="media-object" src="..." alt="...">
+						</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Welcome</h4>
+							Hello this is Eugene's Website, still in dev.
+						</div>
+					</li>
+
+					<li class="media find-me">
+						<div class="media-left">
+						<a href="#">
+						<img class="media-object" src="..." alt="...">
+						</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading"><section id ='find-me'>Find me at</section></h4>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis dui vel pharetra mattis. Curabitur rutrum volutpat diam, ac mattis turpis convallis sed. Vestibulum lobortis dui et odio laoreet, malesuada porta risus bibendum. Duis a rhoncus lorem, et aliquam massa. Morbi maximus arcu sit amet justo vehicula sollicitudin. Curabitur vel porta ipsum. Ut in facilisis lacus. Nullam posuere luctus dignissim.
+							<p>
+							Donec vehicula arcu sit amet diam pulvinar, nec maximus augue malesuada. Donec placerat aliquam scelerisque. Proin suscipit quis diam et luctus. Etiam sit amet velit sit amet lorem posuere ullamcorper. Nunc viverra nunc malesuada sem ornare facilisis. Donec venenatis velit non arcu suscipit vulputate. Ut suscipit sapien eget magna egestas, a varius elit placerat. Vestibulum interdum erat at volutpat interdum. Ut accumsan erat sed ante ullamcorper, sed suscipit est dignissim. Integer eu luctus orci. Suspendisse auctor nisi ex, at dignissim eros sodales vel. Sed ut fermentum enim. Donec tortor tortor, feugiat vel tortor vel, luctus dictum lorem. Integer porta fringilla mauris, ac dignissim nibh facilisis fringilla. Etiam ultricies leo a tempus semper.
+						</div>
+					</li>	
+
+					<li class="media find-me">
+						<div class="media-left">
+						<a href="#">
+						<img class="media-object" src="..." alt="...">
+						</a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading"><section id ='about'>About Me</section></h4>
+							Donec et sollicitudin est, quis scelerisque justo. Curabitur commodo arcu lacus, feugiat lacinia felis venenatis id. Quisque eu dignissim mauris, et tristique dui. Aliquam ullamcorper imperdiet purus, in tincidunt nibh consequat vitae. Duis imperdiet maximus maximus. Nunc enim turpis, vestibulum vel odio vitae, sollicitudin aliquet dui. Etiam ac sollicitudin tellus. Maecenas laoreet aliquam ornare. Nam eleifend sem magna, a rhoncus tortor eleifend ac. Sed eget tincidunt lectus. Maecenas lobortis pulvinar velit vel mattis. Quisque ligula ligula, posuere a semper non, imperdiet non justo. Cras pulvinar accumsan vehicula. Nulla nisl nulla, fringilla in condimentum hendrerit, luctus ac orci.
+							<p>
+							Phasellus ornare tincidunt tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam fermentum, mauris eu consequat efficitur, ex diam consectetur erat, vitae eleifend ipsum dolor et ligula. Suspendisse potenti. Pellentesque lacinia vel leo nec consequat. Maecenas viverra, velit non gravida facilisis, eros nulla pretium libero, eu tempor turpis turpis in orci. Proin elementum fringilla sollicitudin. Fusce tempor mi quis accumsan semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi volutpat, ipsum in consequat fringilla, orci felis auctor nibh, ac porta sem dolor a quam. Aliquam nisi magna, hendrerit in porttitor sit amet, tristique ac metus.
+							<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis dui vel pharetra mattis. Curabitur rutrum volutpat diam, ac mattis turpis convallis sed. Vestibulum lobortis dui et odio laoreet, malesuada porta risus bibendum. Duis a rhoncus lorem, et aliquam massa. Morbi maximus arcu sit amet justo vehicula sollicitudin. Curabitur vel porta ipsum. Ut in facilisis lacus. Nullam posuere luctus dignissim.
+							<p>
+							Donec vehicula arcu sit amet diam pulvinar, nec maximus augue malesuada. Donec placerat aliquam scelerisque. Proin suscipit quis diam et luctus. Etiam sit amet velit sit amet lorem posuere ullamcorper. Nunc viverra nunc malesuada sem ornare facilisis. Donec venenatis velit non arcu suscipit vulputate. Ut suscipit sapien eget magna egestas, a varius elit placerat. Vestibulum interdum erat at volutpat interdum. Ut accumsan erat sed ante ullamcorper, sed suscipit est dignissim. Integer eu luctus orci. Suspendisse auctor nisi ex, at dignissim eros sodales vel. Sed ut fermentum enim. Donec tortor tortor, feugiat vel tortor vel, luctus dictum lorem. Integer porta fringilla mauris, ac dignissim nibh facilisis fringilla. Etiam ultricies leo a tempus semper.
+						</div>
+					</li>
+
+				<div class="media-left media-top">
+					<a href="#">
+					<img class="media-object" src="..." alt="...">
+					</a>
+				</div>
+				<div class="media-body" >
+
+					<h4 class="media-heading">Find me at</h4>			
+
+				</div>	
 				<p>
-				<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis dui vel pharetra mattis. Curabitur rutrum volutpat diam, ac mattis turpis convallis sed. Vestibulum lobortis dui et odio laoreet, malesuada porta risus bibendum. Duis a rhoncus lorem, et aliquam massa. Morbi maximus arcu sit amet justo vehicula sollicitudin. Curabitur vel porta ipsum. Ut in facilisis lacus. Nullam posuere luctus dignissim.
-				<p>
+
 				Donec vehicula arcu sit amet diam pulvinar, nec maximus augue malesuada. Donec placerat aliquam scelerisque. Proin suscipit quis diam et luctus. Etiam sit amet velit sit amet lorem posuere ullamcorper. Nunc viverra nunc malesuada sem ornare facilisis. Donec venenatis velit non arcu suscipit vulputate. Ut suscipit sapien eget magna egestas, a varius elit placerat. Vestibulum interdum erat at volutpat interdum. Ut accumsan erat sed ante ullamcorper, sed suscipit est dignissim. Integer eu luctus orci. Suspendisse auctor nisi ex, at dignissim eros sodales vel. Sed ut fermentum enim. Donec tortor tortor, feugiat vel tortor vel, luctus dictum lorem. Integer porta fringilla mauris, ac dignissim nibh facilisis fringilla. Etiam ultricies leo a tempus semper.
-				<p>
-				Donec et sollicitudin est, quis scelerisque justo. Curabitur commodo arcu lacus, feugiat lacinia felis venenatis id. Quisque eu dignissim mauris, et tristique dui. Aliquam ullamcorper imperdiet purus, in tincidunt nibh consequat vitae. Duis imperdiet maximus maximus. Nunc enim turpis, vestibulum vel odio vitae, sollicitudin aliquet dui. Etiam ac sollicitudin tellus. Maecenas laoreet aliquam ornare. Nam eleifend sem magna, a rhoncus tortor eleifend ac. Sed eget tincidunt lectus. Maecenas lobortis pulvinar velit vel mattis. Quisque ligula ligula, posuere a semper non, imperdiet non justo. Cras pulvinar accumsan vehicula. Nulla nisl nulla, fringilla in condimentum hendrerit, luctus ac orci.
-				<p>
-				Phasellus ornare tincidunt tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam fermentum, mauris eu consequat efficitur, ex diam consectetur erat, vitae eleifend ipsum dolor et ligula. Suspendisse potenti. Pellentesque lacinia vel leo nec consequat. Maecenas viverra, velit non gravida facilisis, eros nulla pretium libero, eu tempor turpis turpis in orci. Proin elementum fringilla sollicitudin. Fusce tempor mi quis accumsan semper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi volutpat, ipsum in consequat fringilla, orci felis auctor nibh, ac porta sem dolor a quam. Aliquam nisi magna, hendrerit in porttitor sit amet, tristique ac metus.
-				<p>
-				Donec vehicula arcu sit amet diam pulvinar, nec maximus augue malesuada. Donec placerat aliquam scelerisque. Proin suscipit quis diam et luctus. Etiam sit amet velit sit amet lorem posuere ullamcorper. Nunc viverra nunc malesuada sem ornare facilisis. Donec venenatis velit non arcu suscipit vulputate. Ut suscipit sapien eget magna egestas, a varius elit placerat. Vestibulum interdum erat at volutpat interdum. Ut accumsan erat sed ante ullamcorper, sed suscipit est dignissim. Integer eu luctus orci. Suspendisse auctor nisi ex, at dignissim eros sodales vel. Sed ut fermentum enim. Donec tortor tortor, feugiat vel tortor vel, luctus dictum lorem. Integer porta fringilla mauris, ac dignissim nibh facilisis fringilla. Etiam ultricies leo a tempus semper.
+				</ul>
 			</div>
 		</div>
 	</div>
