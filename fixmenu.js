@@ -11,12 +11,19 @@ jQuery("document").ready(function($){
 	           if (target.length) {
 	             $('html,body').animate({
 	                 scrollTop: target.offset().top - scrollVal
-	            }, 1000);
+	            }, 600);
 	            return false;
 	        }
 	    }
 
 	});
+
+$('.to-top').click(function(){
+    $('html, body').animate({
+        scrollTop: 0
+    }, 400);
+    return false;
+});
  	// $(".scroll").click(function(event){
   //        event.preventDefault();
   //        //calculate destination place
