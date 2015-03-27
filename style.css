@@ -1,8 +1,9 @@
-.topbar { background: rgb(192, 192, 192) transparent;
-background: rgba(192, 192, 192, 0.8);
-/*width: 95%;*/
-margin-top: 1%;
-width: 90%;
+.topbar { 
+	background: rgb(192, 192, 192) transparent;
+	background: rgba(192, 192, 192, 0.8);
+	/*width: 95%;*/
+	margin-top: 1%;
+	width: 90%;
 }
 
 .topbar-resize {
@@ -49,11 +50,11 @@ width: 90%;
 }
 
 .navbar-collapse.collapse {
-display: block!important;
+	display: block!important;
 }
 
 .navbar-nav>li, .navbar-nav {
-float: left !important;
+	float: left !important;
 }
 
 .space{
@@ -62,34 +63,34 @@ float: left !important;
 }
 
 .topbar1{
-margin-right: 0px !important;
+	margin-right: 0px !important;
 }
 
 .topbar2{
-margin-right: 50px !important;
+	margin-right: 50px !important;
 }
 
 .topbar3{
-margin-right: 200px !important;
+	margin-right: 200px !important;
 }
 
 .topbar4{
-margin-right: 400px !important;
+	margin-right: 400px !important;
 }
 
 .middle{
-border-left: 3px dashed #aaa;
--webkit-box-shadow: -6px 8px 5px 0px #f5f5f5;
--moz-box-shadow: -6px 8px 5px 0px #f5f5f5;
-box-shadow: -6px 8px 5px 0px #f5f5f5;
+	border-left: 3px dashed #aaa;
+	-webkit-box-shadow: -6px 8px 5px 0px #f5f5f5;
+	-moz-box-shadow: -6px 8px 5px 0px #f5f5f5;
+	box-shadow: -6px 8px 5px 0px #f5f5f5;
 }
 
 .navbar-nav.navbar-right1 {
-margin-right: 0px !important;
+	margin-right: 0px !important;
 }
 
 .navbar-right {
-float: right!important;
+	float: right!important;
 }
 
 .w650 {
@@ -106,22 +107,22 @@ float: right!important;
 }
 
 .footer {
-  position: relative;
-  /*margin-top: -150px;  negative value of footer height */
-  clear:both;
-  padding-top:15px;
-  width:100%;
-  background: rgb(220, 220, 220,) transparent;
-  background: rgba(220, 220, 220, 0.8);
+	position: relative;
+	/*margin-top: -150px;  negative value of footer height */
+	clear:both;
+	padding-top:15px;
+	width:100%;
+	background: rgb(220, 220, 220,) transparent;
+	background: rgba(220, 220, 220, 0.8);
 }
 
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 580px) { 
-.topbar { background: rgb(192, 192, 192) transparent;
-background: rgba(192, 192, 192, 0.8);
-/*width: 90%;*/
-margin-top: 1%;
+	.topbar { background: rgb(192, 192, 192) transparent;
+	background: rgba(192, 192, 192, 0.8);
+	/*width: 90%;*/
+	margin-top: 1%;
 }
 .middle {
 	margin-top:14%;

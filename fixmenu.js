@@ -18,48 +18,36 @@ jQuery("document").ready(function($){
 
 	});
 
-$('.to-top').click(function(){
-    $('html, body').animate({
-        scrollTop: 0
-    }, 400);
-    return false;
-});
- 	// $(".scroll").click(function(event){
-  //        event.preventDefault();
-  //        //calculate destination place
-  //        var dest=0;
-  //        if($(this.hash).offset().top > $(document).height()-$(window).height()){
-  //             dest=$(document).height()-$(window).height();
-  //        }else{
-  //             dest=$(this.hash).offset().top;
-  //        }
-  //        //go to destination
-  //        $('html,body').animate({scrollTop:dest}, 1000,'swing');
-  //    });
+	$('.to-top').click(function(){
+	    $('html, body').animate({
+	        scrollTop: 0
+	    }, 400);
+	    return false;
+	});
 
-		if($( window ).width() >900) {
-			$('.navbar-right').addClass('topbar1');
-		}		
-		if($( window ).width() >1500) {
-			$('.navbar-right').addClass('topbar2');
-			$('.navbar-right').removeClass('topbar1');
-		}
+	if($( window ).width() >900) {
+		$('.navbar-right').addClass('topbar1');
+	}		
+	if($( window ).width() >1500) {
+		$('.navbar-right').addClass('topbar2');
+		$('.navbar-right').removeClass('topbar1');
+	}
 
-		if($( window ).width() >1700) {
-			$('.navbar-right').addClass('topbar3');
-			$('.navbar-right').removeClass('topbar2');
-		}	
+	if($( window ).width() >1700) {
+		$('.navbar-right').addClass('topbar3');
+		$('.navbar-right').removeClass('topbar2');
+	}	
 
-		if($( window ).width() >2000) {
-			$('.navbar-right').addClass('topbar4');
-			$('.navbar-right').removeClass('topbar3');
-		}		
+	if($( window ).width() >2000) {
+		$('.navbar-right').addClass('topbar4');
+		$('.navbar-right').removeClass('topbar3');
+	}		
 
-		if($( window ).width() <700) {
-			$('.navbar-right').removeClass('topbar4');
-			$('.middle').addClass('w650');
-			$('.topbar').addClass('w631');
-		}	
+	if($( window ).width() <700) {
+		$('.navbar-right').removeClass('topbar4');
+		$('.middle').addClass('w650');
+		$('.topbar').addClass('w631');
+	}	
 
 	$(window).resize(function() {
 		if($( window ).width() <1600) {
